@@ -25,7 +25,7 @@ export default function RootLayout({
             <main className="container mx-auto p-10 md:px-10">
               {children}
             </main>
-            <footer className="container mx-auto p-4 md:p-6 text-center text-sm text-muted-foreground">
+            <footer className="container mx-auto p-4 md:p-6 text-center text-sm text-muted-foreground border-t border-border">
               <p>
                 Built
                 <a href="#" className="text-primary hover:underline">

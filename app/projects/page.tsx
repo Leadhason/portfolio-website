@@ -39,7 +39,7 @@ export default function PortfolioPage() {
       <main className="container py-8">
         <div className="space-y-10 ">
             <div className="w-1/2">
-                <h1 className="text-xl p-4 font-bold text-left border-b border-border text-foreground">Projects and clone&apos;s</h1>
+                <h1 className="text-2xl p-4 font-bold text-left border-b border-border text-foreground">Projects</h1>
             </div>
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {projects.map((project) => (
