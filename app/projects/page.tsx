@@ -41,7 +41,7 @@ export default function PortfolioPage() {
             <div className="w-1/2">
                 <h1 className="text-xl p-4 font-bold text-left border-b border-border text-foreground">Projects and clone&apos;s</h1>
             </div>
-          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {projects.map((project) => (
               <ProjectCard key={project.title} {...project} />
             ))}
