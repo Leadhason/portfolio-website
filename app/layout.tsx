@@ -22,7 +22,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <div className="bg-background text-foreground min-h-screen">
             <Header />
-            <main className="container mx-auto p-10 md:px-16">
+            <main className="container mx-auto p-10 md:px-10">
               {children}
             </main>
             <footer className="container mx-auto p-4 md:p-6 text-center text-sm text-muted-foreground">

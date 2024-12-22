@@ -8,7 +8,7 @@ export default function Home() {
     <>
     <div className="grid grid-cols-[2fr,1fr] mt-5 mb-10 gap-4">
       <div className="flex flex-col space-y-4 h-full w-full ml-5">
-        <Card className="p-6 w-full"> {/* Hero*/}
+        <Card className="p-6 w-full shadow-md"> {/* Hero*/}
             <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="flex-1 space-y-4">
                 <div className="text-sm text-muted-foreground">welcome</div>
@@ -62,7 +62,7 @@ export default function Home() {
 
         <div className="grid md:grid-cols-[1fr,2fr] gap-6">
           <div className="h-full">
-            <Card className="p-5"> {/* CV*/}
+            <Card className="p-5 shadow-md"> {/* CV*/}
               <h2 className="text-xl font-semibold mb-4">CV</h2>
               <div className="aspect-[3/2] bg-muted rounded-lg mb-4" />
               <button className="w-full bg-orange-500 text-white rounded-lg py-2 px-3 text-lg">
@@ -72,7 +72,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col space-y-5 h-full justify-between">
             <div className="grid md:grid-cols-2 gap-4">
-              <Card className="p-4">
+              <Card className="p-4 shadow-md">
                 <div className="flex items-center justify-between mb-2"> {/* Currently working on...*/}
                   <h2 className="text-xl font-light">Now</h2>
                   <div className="w-2 h-2 bg-green-500 rounded-full" />
@@ -81,13 +81,13 @@ export default function Home() {
                 <p className="text-sm text-muted-foreground font-light">Currently working as freelancer</p>
               </Card>
 
-              <Card className="p-4 flex justify-between hover:border-orange-300">
+              <Card className="p-4 flex justify-between hover:border-orange-300 shadow-md">
                 <Link href="/projects"><h2 className="text-xl font-semibold">Portfolio & Projects</h2></Link>
                 <ExternalLink className="h-5 w-5" />
               </Card>
             </div>
             <div className="">
-              <Card className="p-4">
+              <Card className="p-4 shadow-md">
                 <h2 className="text-xl font-semibold mb-3">Time zone</h2>
                 <div className="space-y-2">
                   <div className="text-xl font-light">
@@ -104,7 +104,7 @@ export default function Home() {
 
         <div className="grid md:grid-cols-3 gap-6">
           <div className="h-full">
-            <Card className="p-6 h-full">
+            <Card className="p-6 h-full shadow-md">
               <h2 className="text-xl font-semibold mb-4">Experience</h2>
               <div className="space-y-6">
                 <div>
@@ -128,18 +128,18 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col space-y-4 h-full">
-            <Card className="p-8 h-1/2">
+            <Card className="p-8 h-1/2 shadow-md">
               <div className="italic text-lg font-light mb-4">
                 &quot;Anything one man can imagine, other men can make real.&quot;
               </div>
               <div className="text-muted-foreground">- Jules Verne</div>
             </Card>
 
-            <Card className="p-6 h-1/2">
+            <Card className="p-6 h-1/2 shadow-md">
               <h2 className="text-xl font-semibold mb-4">Study</h2>
               <div className="flex flex-wrap gap-2 items-center justfy-center font-light text-md">
                 <span className="bg-secondary text-secondary-foreground px-3 py-1 rounded-full text-sm">
-                  Universidad Central
+                  KNUST
                 </span>
                 <span className="bg-secondary text-secondary-foreground px-3 py-1 rounded-full text-sm">
                   Platzi
@@ -154,13 +154,13 @@ export default function Home() {
             </Card>
           </div>
           <div className="h-full">
-            <Card className="p-6 h-full">
+            <Card className="p-6 h-full shadow-md">
               <div className="flex items-center justify-between mb-4">
                 <h2 className="text-xl font-semibold">Instagram tattoo</h2>
                 <ExternalLink className="h-5 w-5" />
               </div>
               <Image
-                src="/avatar.png"
+                src="/avatr.png"
                 alt="Instagram preview"
                 width={300}
                 height={300}
@@ -176,7 +176,7 @@ export default function Home() {
 
 
       <div className="flex flex-col space-y-5 h-full px-8 mb-6">
-        <Card className="p-6 h-1/2"> {/* About*/}
+        <Card className="p-6 h-1/2 shadow-md"> {/* About*/}
             <h2 className="text-xl font-semibold mb-4">About me</h2>
             <p className="mb-4 text-sm text-muted-foreground font-light">
               Hi, I&apos;m Andrés, a fullstack software developer from Colombia 🇨🇴
@@ -200,7 +200,7 @@ export default function Home() {
               ukulele.
             </p>
         </Card>
-        <Card className="p-6 h-1/2">
+        <Card className="p-6 h-1/2 shadow-md">
           <h2 className="text-xl font-semibold mb-4">Let&apos;s start working together!</h2>
           <div className="space-y-4">
             <div>
